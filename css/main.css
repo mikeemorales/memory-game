@@ -32,7 +32,7 @@ body {
     transition: transform .2s;
 }
 .memory-card.flip {
-    transform: rotatey(180deg);
+    transform: rotateY(180deg);
 }
 
 .front-face {
@@ -54,3 +54,15 @@ body {
 
 }
 
+/*Media Queries*/
+
+@media screen and (max-width: 600px) {
+    .memory-game {
+        width: 450px;
+        height: 450px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        perspective: 700px;
+    }
+}
