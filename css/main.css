@@ -16,7 +16,6 @@ body {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    perspective: 1000px;
 }
 .memory-card {
     width: calc(25% - 10px);
@@ -63,7 +62,6 @@ body {
         margin: auto;
         display: flex;
         flex-wrap: wrap;
-        perspective: 700px;
     }
 }
 
@@ -74,6 +72,5 @@ body {
         margin: auto;
         display: flex;
         flex-wrap: wrap;
-        perspective: 500px;
     }
 }
