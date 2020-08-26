@@ -2,12 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;  
+  cursor: pointer;
 }
 
 body {
     height: 100vh;
     display: flex;
-
     background: rgb(229, 151, 151);
 }
 .memory-game {
