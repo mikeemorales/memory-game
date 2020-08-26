@@ -50,9 +50,16 @@ body {
     border-radius: 5px;
     background: tomato;
     backface-visibility: hidden;
-
 }
+
+/*Media Queries*/
 @media only screen and (max-device-width: 480px) {
+    body {
+        height: 100vh;
+        display: flex;
+    
+        background: rgb(229, 151, 151);
+    }
     .memory-game {
         width: 340px;
         height: 340px;
