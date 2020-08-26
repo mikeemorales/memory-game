@@ -52,25 +52,9 @@ body {
     backface-visibility: hidden;
 
 }
-
-/*Media Queries*/
-
-@media screen and (max-width: 600px) {
+@media only screen and (max-device-width: 480px) {
     .memory-game {
-        width: 450px;
-        height: 450px;
-        margin: auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .memory-game {
-        width: 350px;
-        height: 350px;
-        margin: auto;
-        display: flex;
-        flex-wrap: wrap;
+        width: 340px;
+        height: 340px;
     }
 }
