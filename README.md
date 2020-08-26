@@ -6,7 +6,7 @@ https://mikeemorales.github.io/memory-game/html/
 I've created an NBA matching memory game. Created with css, HTML, and js, the object of the game is to match two cards of the same team until every team has been paired.
 
 ## (UX) 
-(/images/mock-up-01.png)
+![mockup image](https://github.com/mikeemorales/memory-game/blob/master/images/mockup.png)
 
 ## (Features)
 ## Current features:
