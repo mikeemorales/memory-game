@@ -39,7 +39,8 @@ body {
     height: 100%;
     border-radius: 5px;
     background: tomato;
-    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    z-index: -1;
 }
 .back-face {
     position: absolute;
@@ -89,7 +90,8 @@ body {
         height: 100%;
         border-radius: 5px;
         background: tomato;
-        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        z-index: -1;
     
     }
     .back-face {
@@ -138,7 +140,8 @@ body {
         height: 100%;
         border-radius: 5px;
         background: tomato;
-        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        z-index: -1;
     
     }
     .back-face {
@@ -187,7 +190,8 @@ body {
         height: 100%;
         border-radius: 5px;
         background: tomato;
-        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        z-index: -1;
     
     }
     .back-face {
