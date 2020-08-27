@@ -40,6 +40,7 @@ body {
     border-radius: 5px;
     background: tomato;
     transform: rotateY(180deg);
+    transform-style: preserve-3d;
 
 }
 .back-face {
@@ -49,11 +50,9 @@ body {
     border-radius: 5px;
     background: tomato;
     backface-visibility: hidden;
+    transform-style: preserve-3d;
 }
 
-.back-face:active {
-    display: none;
-}
 
 /*Media Queries*/
 @media only screen and (max-width: 480px) {
