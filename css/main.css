@@ -51,8 +51,12 @@ body {
     backface-visibility: hidden;
 }
 
+.back-face:active {
+    display: none;
+}
+
 /*Media Queries*/
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
     body {
         height: 100vh;
         display: flex;
@@ -102,7 +106,7 @@ body {
     }
 }
 
-@media only screen and (min-device-width: 481px) {
+@media only screen and (min-width: 481px) {
     body {
         height: 100vh;
         display: flex;
@@ -151,7 +155,7 @@ body {
     }
 
 }
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-width: 768px) {
     body {
         height: 100vh;
         display: flex;
