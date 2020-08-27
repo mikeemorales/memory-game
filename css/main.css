@@ -30,7 +30,7 @@ body {
     transition: transform .5s;
 }
 .memory-card.flip {
-    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 
 .front-face {
@@ -39,8 +39,7 @@ body {
     height: 100%;
     border-radius: 5px;
     background: tomato;
-
-
+    transform: rotateY(180deg);
 }
 .back-face {
     position: absolute;
